@@ -322,24 +322,25 @@
     </style>    
 
 <div class="cards" style="display: flex; justify-content: center; align-items: center;">
-  <div class="card" style="border: 1px solid #ccc; height: 290px; width: 350px; margin: 16px; padding: 32px 16px;">
-    <h2>1</h2>
+  <div class="card" style="border: 1px solid #ccc; height: 290px; width: 350px; margin: 16px; padding: 16px; display: flex; flex-direction: column; align-items: flex-start; text-align: left;">
+    <h2 style="font-size: 36px; margin: 0;">1</h2>
     <h2>Connect with us</h2>
     <p>Fill out a brief form and we’ll get in touch via phone or email.</p>
   </div>
-  <div class="card" style="border: 1px solid #ccc; height: 290px; width: 350px; margin: 16px; padding: 32px 16px;">
-    <h2>2</h2>
+  <div class="card" style="border: 1px solid #ccc; height: 290px; width: 350px; margin: 16px; padding: 16px; display: flex; flex-direction: column; align-items: flex-start; text-align: left;">
+    <h2 style="font-size: 36px; margin: 0;">2</h2>
     <h2>Tell us about your needs</h2>
     <p>We’ll talk a bit about your goals, needs, and budget.</p>
   </div>
-  <div class="card" style="border: 1px solid #ccc; height: 290px; width: 350px; margin: 16px; padding: 32px 16px;">
-    <h2>3</h2>
+  <div class="card" style="border: 1px solid #ccc; height: 290px; width: 350px; margin: 16px; padding: 16px; display: flex; flex-direction: column; align-items: flex-start; text-align: left;">
+    <h2 style="font-size: 36px; margin: 0;">3</h2>
     <h2>Get software recommendations</h2>
     <p>Within 20 minutes, we’ll email you a list of personalized software recommendations.</p>
   </div>
 </div>
 
-<div class="connect-advisor" style="
+
+    <div class="connect-advisor" style="
     border-left-width: 15px;padding-left: 20px;margin-left: 20px;margin-right: 20px;">
       <img src="Support1.jpg" alt="Advisor Image" style="flex-basis: 30%; margin-right: 20px;">
       <div style="flex-basis: 70%;">
@@ -525,7 +526,7 @@
 </body>
 </html>
 
-CSS code starts here.....!
+**CSS code starts here.....!**
 /* Reset and common styles */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
