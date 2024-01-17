@@ -105,13 +105,38 @@
   max-width: 450px;
   margin-right: auto;
 }
+.skillset {
+    overflow: hidden;
+  }
 
+  .card {
+    float: left;
+    animation: none
+  }
+
+  @keyframes scroll {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(calc(-100% - 10px)); /* Adjust for card width and gap */
+      }
+    }
+
+    .skillset {
+      animation: scroll 50s linear infinite;
+    }
+
+    /* Optional: Pause animation on hover */
+    .skillset:hover {
+    animation: marquee 20s linear infinite;
+    }
 <style>
     .card-container {
       display: flex;
       justify-content: space-between;
       margin: 0 auto;
-      max-width: 1200px; /* Adjust the max-width as needed */
+      max-width: 900px; /* Adjust the max-width as needed */
     }
 
     .contact-section,
@@ -145,33 +170,41 @@
 </head>
 <body>
   
-  <img src="ANKA.png" alt="Anoka Advisory Logo" class="logo" style="width: 60px;margin-right: 0px;top: 10px; padding-left: 10px;">
-
-    <nav style="padding-right: 0px;padding-left: 650px;">
-    <a href="#home">HOME</a>
-    <a href="#blog">BLOG</a>
-    <a href="#About us">ABOUT US</a>
-    <a href="#contact us">CONTACT US</a>
-    <a href="#services">SERVICES</a>
-    <a href="#For Vendors">FOR VENDORS</a>
-</nav>
+  <header style="display: flex; align-items: center; justify-content: space-between; padding: 20px 0 0 0;">
+    <div style="display: flex; align-items: center;">
+      <img src="ANKA.png" alt="Anoka Advisory Logo" class="logo" style="width: 60px; margin-right: 10px; margin-left: 20px;">
+  
+      <nav style="margin-right: 0px;margin-left: 100px;">
+        <a href="#home">HOME</a>
+        <a href="#blog">BLOG</a>
+        <a href="#about-us">ABOUT US</a>
+        <a href="#contact-us">CONTACT US</a>
+        <a href="#services">SERVICES</a>
+        <a href="#for-vendors">FOR VENDORS</a>
+      </nav>
+    </div>
+  
+    <div class="search-bar" style="margin-left: -50; margin-left: 0px;margin-right: 200px;">
+      <input type="text" placeholder="Search...">
+      <img src="Search.png" alt="Search" style="width: 40px;height: 40px;border-radius: 50%;margin-left: 10px;">
+    </div>
   </header>
 
   <!-- <div>
   <img src="Header00.png" alt="Header Image" class="header-image">
 </div> -->
 
-<div class="customContainer" style="height: 400px;padding-left: 10px;padding-top: 40px;padding-left: 10px;">
+<div class="customContainer" style="height: 400px;padding-left: 10px;padding-top: 0px;padding-left: 0px;padding-bottom: 0px;padding-right: 0px;">
   <div class="mainText">
-    <span class="boldText">Get real advice from <br> real people</span>
+    <span class="boldText" style="margin-left: 60px;">Get real advice from <br> <span style="margin-left: 60px;">real people</span></span>
     <br>
-    <span class="smallerText">With one-on-one help and personalized recommendations, we <br> guide you to your top software options.</span>
+    <span class="smallerText" style="margin-left: 60px;">With one-on-one help and personalized recommendations, we <br> <span style="margin-left: 60px;">guide you to your top software options.</span></span>
     <br>
-  </div>
-  <div style="text-align: right;margin-top: -102px;margin-right: 100px;width: 1500px;height: -300px;">
+</div>
+  <div style="text-align: right;margin-top: -250px;margin-right: 100px;width: 1500px;height: -300px;">
     <img src="Question.png" alt="image 3" class="image3" style="position: absolute;top: -150;right: 250px;z-index: 1;width: 75px;padding-top: 140px;margin-right: 20px;">
-    <img src="GG141.png" alt="Image 1" style="width: 100%;max-width: 300px;margin-top: 0px;padding-bottom: 40px;">
-      <img src="BB141.png" alt="Image 2" style="width: 100%;max-width: 300px;margin-top: 160px;">
+    <img src="GG141.png" alt="Image 1" style="width: 100%;max-width: 300px;margin-top: 0px;padding-bottom: 50px;">
+      <img src="BB141.png" alt="Image 2" style="width: 100%;max-width: 300px;margin-top: 120px;">
   </div>
 </div>
 
@@ -221,7 +254,7 @@
       </div>
       <div class="flex-column">
         <img src="message1.png" alt="Image 2">
-        <h2 style="padding-left: 10px;">Connect with an advisor</h2>
+        <h2 style="padding-left: 10px;">Associate with an advisor</h2>
         <p style="padding-left: 10px;">Chat with a software advisor and get personalized software recommendations via phone or email.</p>
       </div>
       <div class="flex-column">
@@ -231,13 +264,33 @@
       </div>
     </div>
 
-    <!-- New Section: Video -->
-<div class="video-section">
-  <video width="70%" controls >
-    <source src="Copyright.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
+    <div class="skillset" style="margin-left: 0px;margin-right: 0px;">
+      <div class="card" style="
+         padding-top: 10px;padding-left: 10px;padding-right: 10px;padding-bottom: 10px;height: 111.6px;width: 271.6px; margin-right: 0px;margin-left: 10px;">
+        <img src="sql.png" alt="Retail">
+        <p>Retail</p>
+      </div>
+      <div class="card" style="
+         padding-top: 10px;padding-left: 10px;padding-right: 10px;padding-bottom: 10px;height: 111.6px;width: 271.6px; margin-right: 0px;margin-left: 10px;">
+        <img src="spring-boot.png" alt="Dental">
+        <p>Dental</p>
+      </div>
+      <div class="card" style="
+          padding-top: 10px;padding-left: 10px;padding-right: 10px;padding-bottom: 10px;height: 111.6px;width: 271.6px; margin-right: 0px;margin-left: 10px;">
+        <img src="angular.png" alt="Real Estate">
+        <p>Real Estate</p>
+      </div>
+      <div class="card" style="
+         padding-top: 10px;padding-left: 10px;padding-right: 10px;padding-bottom: 10px;height: 111.6px;width: 271.6px; margin-right: 0px;margin-left: 10px;">
+        <img src="apache-kafka.png" alt="Medical">
+        <p>Medical</p>
+      </div>
+      <div class="card" style="
+         padding-top: 10px;padding-left: 10px;padding-right: 10px;padding-bottom: 10px;height: 111.6px;width: 271.6px; margin-right: 0px;margin-left: 10px;">
+        <img src="maven.png" alt="Firmware">
+        <p>Firmware</p>
+      </div>
+    </div>
 
     <h2 class="centered-heading">Here's How We Work</h2>
 
@@ -268,21 +321,21 @@
       }
     </style>    
 
-<div class="cards">
-  <div class="card larger-card" onclick="toggleCard(this)">
+<div class="cards" style="display: flex; justify-content: center; align-items: center;">
+  <div class="card" style="border: 1px solid #ccc; height: 290px; width: 350px; margin: 16px; padding: 32px 16px;">
     <h2>1</h2>
     <h2>Connect with us</h2>
     <p>Fill out a brief form and we’ll get in touch via phone or email.</p>
   </div>
-  <div class="card larger-card" onclick="toggleCard(this)">
+  <div class="card" style="border: 1px solid #ccc; height: 290px; width: 350px; margin: 16px; padding: 32px 16px;">
     <h2>2</h2>
     <h2>Tell us about your needs</h2>
-    <p>We’ll talk a bit about your goals, needs and budget.</p>
+    <p>We’ll talk a bit about your goals, needs, and budget.</p>
   </div>
-  <div class="card larger-card" onclick="toggleCard(this)">
+  <div class="card" style="border: 1px solid #ccc; height: 290px; width: 350px; margin: 16px; padding: 32px 16px;">
     <h2>3</h2>
-    <h2> Get software recommendations</h2>
-    <p>Within 20 minutes we’ll email you a list of personalized software recommendations.</p>
+    <h2>Get software recommendations</h2>
+    <p>Within 20 minutes, we’ll email you a list of personalized software recommendations.</p>
   </div>
 </div>
 
@@ -290,7 +343,7 @@
     border-left-width: 15px;padding-left: 20px;margin-left: 20px;margin-right: 20px;">
       <img src="Support1.jpg" alt="Advisor Image" style="flex-basis: 30%; margin-right: 20px;">
       <div style="flex-basis: 70%;">
-        <h2>Connect with an advisor who specializes in your industry</h2>
+        <h2>Connect with an consultant who specializes in your industry</h2>
         <p>"I help people get their software search out of the way, so they can focus on their business. Advisors like me save you hours of time and can point you towards software options that perfectly match your specific needs. I specialize in construction software, but no matter what you’re looking for, one of us can definitely help!"</p>
       </div>
     </div>
@@ -472,44 +525,32 @@
 </body>
 </html>
 
-CSS code starts here....
+CSS code starts here.....!
+/* Reset and common styles */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f7f7f7;
   color: #000;
 }
 
+/* Header styles */
 .header-container {
-  position: fixed; /* Add this line to make the header fixed */
-  width: 100%; /* Add this line to make the header full width */
+  position: fixed;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
   background-color: #333;
   color: white;
-  z-index: 1000; /* Add this line to control the stacking order */
+  z-index: 1000;
 }
 
 nav {
   display: flex;
-  background-color: #1a172c; /* Updated background color for the nav */
+  background-color: #1a172c;
   padding: 10px;
-}
-
-.header-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-  background-color: #333;
-  color: white;
-}
-
-nav {
-  display: flex;
 }
 
 nav a {
@@ -524,7 +565,6 @@ header {
   color: #fff;
   padding: 10px;
   text-align: left;
-  position: relative;
 }
 
 .titleheader {
@@ -552,42 +592,6 @@ h1 {
   max-height: 400px;
 }
 
-.fixed-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-bottom: 70px;
-}
-
-.logo {
-  /* Add or adjust styles for your logo */
-}
-
-.titleheader {
-  /* Add or adjust styles for your title/header */
-}
-
-nav {
-  /* Add or adjust styles for your navigation */
-}
-
-.searchBox {
-  display: flex;
-  align-items: center;
-}
-
-.searchInput {
-  /* Add or adjust styles for your search input */
-}
-
-.searchButton {
-  /* Add or adjust styles for your search button */
-}
-
-.material-icons {
-  /* Add or adjust styles for the icon inside the search button */
-}nav
-
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
@@ -599,9 +603,109 @@ body {
 header {
   background-color: #1a172c;
   color: #fff;
-  padding: 10px;
+  padding: 50px;
   text-align: left;
 }
+
+<style>
+    .card-container {
+      display: flex;
+      justify-content: space-between;
+      margin: 0 auto;
+      max-width: 900px; /* Adjust the max-width as needed */
+    }
+
+    .contact-section,
+    .content-section {
+      flex: 1;
+      box-sizing: border-box;
+    }
+
+    .contact-section {
+      background-color: #f9f9f9; /* Adjust background color as needed */
+      padding: 20px;
+      border: 1px solid #ddd; /* Adjust border as needed */
+      border-radius: 8px; /* Adjust border-radius as needed */
+    }
+
+    .content-section {
+      background-color: #fff; /* Adjust background color as needed */
+      padding: 20px;
+      border: 1px solid #ddd; /* Adjust border as needed */
+      border-radius: 8px; /* Adjust border-radius as needed */
+    }
+
+    nav {
+        text-align: center; /* Align the text to the right */
+    }
+
+    nav a {
+        margin-left: 10px; /* Add some space between the links */
+        }
+
+    .skillset {
+      display: flex;
+      gap: 10px; /* Adjusted gap */
+      overflow: hidden;
+      white-space: nowrap;
+      width: 100%; /* Adjusted width */
+    }
+
+    .card {
+      flex: 0 0 auto;
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: center;
+      display: inline-block;
+      width: 200px; /* Adjusted card width */
+    }
+
+    @keyframes scroll {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(calc(-100% - 10px)); /* Adjust for card width and gap */
+      }
+    }
+
+    .skillset:hover {
+      animation: none; /* Pause animation on hover */
+    }
+
+    .search-bar {
+      display: flex;
+      align-items: center;
+      margin-left: 20px; /* Adjust the margin as needed */
+    }
+    
+    .search-bar input {
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+    
+    .search-bar button {
+      background-color: #1a172c; /* Adjust the background color as needed */
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      margin-left: 5px;
+      cursor: pointer;
+    }
+    
+    .search-bar button img {
+      width: 20px; /* Adjust the width of the search icon */
+      height: 20px; /* Adjust the height of the search icon */
+    }
+    
+    /* Add a style for the phrase "How can we assist you" */
+    .header-text {
+      font-size: 16px; /* Adjust the font size as needed */
+      margin-left: 20px; /* Adjust the margin as needed */
+      color: #1a172c; /* Adjust the color as needed */
+    }
+</style>
 
 nav {
   background-color: #1a172c;
@@ -905,17 +1009,17 @@ nav a:hover {
   max-width: 800px; /* Set a maximum width for the video */
 }
 
-/*This CSS is for flex section*/
+/* Flex section styles */
 .flex-container {
   display: flex;
-  justify-content: space-between; /* Adjust as needed */
+  justify-content: space-between;
   padding: 20px;
 }
 
 .flex-column {
-  flex-basis: calc(33.33% - 20px); /* Adjusted for padding */
+  flex-basis: calc(33.33% - 20px);
   box-sizing: border-box;
-  margin-right: 20px; /* Adjusted for gap between columns */
+  margin-right: 20px;
   background-color: #ffffff;
   border-radius: 10px;
   overflow: hidden;
@@ -930,6 +1034,7 @@ nav a:hover {
 
 /*The flex section CSS ends here*/
 
+/* Search box styles */
 .searchBox {
   position: absolute;
   top: 50%;
@@ -951,6 +1056,7 @@ nav a:hover {
   color: #2f3640;
 }
 
+/* Container styles */
 .customContainer {
   position: relative;
   height: 380px;
@@ -960,29 +1066,15 @@ nav a:hover {
   text-align: left;
 }
 
+/* Main text styles */
 .mainText {
-  font-weight: 800; /* Semi-bold */
-  font-size: 26px; /* Adjust the font size as needed */
-  line-height: 1; /* Adjust the line height as needed */
+  font-weight: 600!important;
+  font-size: 46px!important;
+  line-height: 60px!important;
 }
 
-.boldText {
-  font-weight: 600; /* Bold */
-}
-
+/* Smaller text styles */
 .smallerText {
-  font-size: 16px; /* Adjust the font size to make it smaller */
-  line-height: 1.3; /* Adjust the line height as needed */
-}
-
-.semicircle {
-  position: absolute;
-  top: 85%;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 1000px;
-  height: 50px;
-  background-color: purple;
-  border-top-left-radius: 50%;
-  border-top-right-radius: 50%;
+  font-size: 14px;
+  line-height: 2.5rem;
 }
