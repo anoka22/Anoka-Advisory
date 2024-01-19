@@ -170,7 +170,7 @@
 </head>
 <body>
   
-  <header style="display: flex; align-items: center; justify-content: space-between; padding: 20px 0 0 0;">
+  <header style="display: flex; align-items: center; justify-content: space-between; padding: 0px 0 0 0;">
     <div style="display: flex; align-items: center;">
       <img src="ANKA.png" alt="Anoka Advisory Logo" class="logo" style="width: 60px; margin-right: 10px; margin-left: 20px;">
   
@@ -195,13 +195,13 @@
 </div> -->
 
 <div class="customContainer" style="height: 400px;padding-left: 10px;padding-top: 0px;padding-left: 0px;padding-bottom: 0px;padding-right: 0px;">
-  <div class="mainText">
+  <div class="mainText" style="padding-top: 20px;">
     <span class="boldText" style="margin-left: 60px;">Get real advice from <br> <span style="margin-left: 60px;">real people</span></span>
     <br>
     <span class="smallerText" style="margin-left: 60px;">With one-on-one help and personalized recommendations, we <br> <span style="margin-left: 60px;">guide you to your top software options.</span></span>
     <br>
 </div>
-  <div style="text-align: right;margin-top: -250px;margin-right: 100px;width: 1500px;height: -300px;">
+  <div style="text-align: right;margin-top: -280px;margin-right: 100px;width: 1500px;height: -300px;">
     <img src="Question.png" alt="image 3" class="image3" style="position: absolute;top: -150;right: 250px;z-index: 1;width: 75px;padding-top: 140px;margin-right: 20px;">
     <img src="GG141.png" alt="Image 1" style="width: 100%;max-width: 300px;margin-top: 0px;padding-bottom: 50px;">
       <img src="BB141.png" alt="Image 2" style="width: 100%;max-width: 300px;margin-top: 120px;">
@@ -267,28 +267,28 @@
     <div class="skillset" style="margin-left: 0px;margin-right: 0px;">
       <div class="card" style="
          padding-top: 10px;padding-left: 10px;padding-right: 10px;padding-bottom: 10px;height: 111.6px;width: 271.6px; margin-right: 0px;margin-left: 10px;">
-        <img src="sql.png" alt="Retail">
-        <p>Retail</p>
+        <img src="Retail1.png" alt="Retail">
+        <p style="margin-top: 5px;">Retail</p>
       </div>
       <div class="card" style="
          padding-top: 10px;padding-left: 10px;padding-right: 10px;padding-bottom: 10px;height: 111.6px;width: 271.6px; margin-right: 0px;margin-left: 10px;">
-        <img src="spring-boot.png" alt="Dental">
-        <p>Dental</p>
+        <img src="den1.png" alt="Dental">
+        <p style="margin-top: 5px;">Dental</p>
       </div>
       <div class="card" style="
           padding-top: 10px;padding-left: 10px;padding-right: 10px;padding-bottom: 10px;height: 111.6px;width: 271.6px; margin-right: 0px;margin-left: 10px;">
-        <img src="angular.png" alt="Real Estate">
-        <p>Real Estate</p>
+        <img src="realestate1.png" alt="Real Estate">
+        <p style="margin-top: 5px;">Real Estate</p>
       </div>
       <div class="card" style="
          padding-top: 10px;padding-left: 10px;padding-right: 10px;padding-bottom: 10px;height: 111.6px;width: 271.6px; margin-right: 0px;margin-left: 10px;">
-        <img src="apache-kafka.png" alt="Medical">
-        <p>Medical</p>
+        <img src="med1.png" alt="Medical">
+        <p style="margin-top: 5px;">Medical</p>
       </div>
       <div class="card" style="
          padding-top: 10px;padding-left: 10px;padding-right: 10px;padding-bottom: 10px;height: 111.6px;width: 271.6px; margin-right: 0px;margin-left: 10px;">
-        <img src="maven.png" alt="Firmware">
-        <p>Firmware</p>
+        <img src="firm1.png" alt="Firmware">
+        <p style="margin-top: 5px;">Firmware</p>
       </div>
     </div>
 
@@ -321,6 +321,8 @@
       }
     </style>    
 
+<button role="button" style="position: fixed; visibility: visible; cursor: pointer; border: none; background-color: transparent; padding: 0px; margin: 0px; bottom: 94px; left: 0px; width: 37px; transition: all 0.5s ease 0s;" id="QSIFeedbackButton-btn" aria-expanded="false" aria-controls="QSIFeedbackButton-target-container"><div style="background: rgb(107, 97, 173); color: rgb(255, 255, 255); padding: 10px; position: relative; font-size: 15px; display: flex; flex-direction: row; z-index: -1; writing-mode: vertical-rl; border-top-right-radius: 6px; border-bottom-right-radius: 6px;"><div><div style="transform: rotate(90deg); top: 0px; margin: 0px 0px 5px;"><svg width="13" height="15" viewport="0 0 13 15"><path d="M11.8182 0H1.18182C0.529118 0 0 0.610521 0 1.36364V13.6364C0 14.3895 0.529118 15 1.18182 15H11.8182C12.4709 15 13 14.3895 13 13.6364V1.36364C13 0.610521 12.4709 0 11.8182 0Z" fill="#ffffff"></path><path d="M3.11869 4.01514H9.88131" stroke="#6b61ad" strokeLinecap="round" strokeLinejoin="round"></path><path d="M3.11869 7.65151H9.88131" stroke="#6b61ad" strokeLinecap="round" strokeLinejoin="round"></path><path d="M3.11869 11.2879H9.88131" stroke="#6b61ad" strokeLinecap="round" strokeLinejoin="round"></path></svg></div></div><div>Share Feedback</div></div></button>
+
 <div class="cards" style="display: flex; justify-content: center; align-items: center;">
   <div class="card" style="border: 1px solid #ccc; height: 290px; width: 350px; margin: 16px; padding: 16px; display: flex; flex-direction: column; align-items: flex-start; text-align: left;">
     <h2 style="font-size: 36px; margin: 0;">1</h2>
@@ -340,9 +342,8 @@
 </div>
 
 
-    <div class="connect-advisor" style="
-    border-left-width: 15px;padding-left: 20px;margin-left: 20px;margin-right: 20px;">
-      <img src="Support1.jpg" alt="Advisor Image" style="flex-basis: 30%; margin-right: 20px;">
+    <div class="connect-advisor" style="border-left-width: 15px; padding-left: 20px; margin-left: 140px; margin-right: 20px; height: 290px;width: 1240px;">
+      <img src="Customer1.png " alt="Advisor Image" style="flex-basis: 30%; margin-right: 40px;">
       <div style="flex-basis: 70%;">
         <h2>Connect with an consultant who specializes in your industry</h2>
         <p>"I help people get their software search out of the way, so they can focus on their business. Advisors like me save you hours of time and can point you towards software options that perfectly match your specific needs. I specialize in construction software, but no matter what you’re looking for, one of us can definitely help!"</p>
