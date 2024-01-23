@@ -60,7 +60,7 @@
     }
     
     .space-cadet-background {
-      background-color: #1a172c;
+      background-color: #FBE8A6;
       padding: 50px;
       text-align: center;
       color: white;
@@ -75,7 +75,7 @@
     }
 </style>
 
-  <title>Anoka Advisory & Co.</title>
+  <title>SoftwareFoxes.</title>
   <link rel="stylesheet" href="styles.css">
   <style>
 
@@ -172,7 +172,7 @@
   
   <header style="display: flex; align-items: center; justify-content: space-between; padding: 0px 0 0 0;">
     <div style="display: flex; align-items: center;">
-      <img src="ANKA.png" alt="Anoka Advisory Logo" class="logo" style="width: 60px; margin-right: 10px; margin-left: 20px;">
+      <img src="ANKA.png" alt="SoftwareFoxes Logo" class="logo" style="width: 60px; margin-right: 10px; margin-left: 20px;">
   
       <nav style="margin-right: 0px;margin-left: 100px;">
         <a href="#home">HOME</a>
@@ -224,7 +224,7 @@
     border: none;
     padding: 10px 20px;
     border-radius: 20px;
-    background-color: orangered;
+    background-color: #FBE8A6;
     color: white;
     cursor: pointer;
     transition: width 0.3s ease-in-out;
@@ -321,7 +321,21 @@
       }
     </style>    
 
-<button role="button" style="position: fixed; visibility: visible; cursor: pointer; border: none; background-color: transparent; padding: 0px; margin: 0px; bottom: 94px; left: 0px; width: 37px; transition: all 0.5s ease 0s;" id="QSIFeedbackButton-btn" aria-expanded="false" aria-controls="QSIFeedbackButton-target-container"><div style="background: rgb(107, 97, 173); color: rgb(255, 255, 255); padding: 10px; position: relative; font-size: 15px; display: flex; flex-direction: row; z-index: -1; writing-mode: vertical-rl; border-top-right-radius: 6px; border-bottom-right-radius: 6px;"><div><div style="transform: rotate(90deg); top: 0px; margin: 0px 0px 5px;"><svg width="13" height="15" viewport="0 0 13 15"><path d="M11.8182 0H1.18182C0.529118 0 0 0.610521 0 1.36364V13.6364C0 14.3895 0.529118 15 1.18182 15H11.8182C12.4709 15 13 14.3895 13 13.6364V1.36364C13 0.610521 12.4709 0 11.8182 0Z" fill="#ffffff"></path><path d="M3.11869 4.01514H9.88131" stroke="#6b61ad" strokeLinecap="round" strokeLinejoin="round"></path><path d="M3.11869 7.65151H9.88131" stroke="#6b61ad" strokeLinecap="round" strokeLinejoin="round"></path><path d="M3.11869 11.2879H9.88131" stroke="#6b61ad" strokeLinecap="round" strokeLinejoin="round"></path></svg></div></div><div>Share Feedback</div></div></button>
+<button role="button" style="position: fixed; visibility: visible; cursor: pointer; border: none; background-color: transparent; padding: 0px; margin: 0px; bottom: 94px; left: 0px; width: 37px; transition: all 0.5s ease 0s;" id="QSIFeedbackButton-btn" aria-expanded="false" aria-controls="QSIFeedbackButton-target-container">
+  <div style="background: #B4DFE5; color: rgb(255, 255, 255); padding: 10px; position: relative; font-size: 15px; display: flex; flex-direction: row; z-index: -1; writing-mode: vertical-rl; border-top-right-radius: 6px; border-bottom-right-radius: 6px;">
+      <div>
+          <div style="transform: rotate(90deg); top: 0px; margin: 0px 0px 5px;">
+              <svg width="13" height="15" viewport="0 0 13 15">
+                  <path d="M11.8182 0H1.18182C0.529118 0 0 0.610521 0 1.36364V13.6364C0 14.3895 0.529118 15 1.18182 15H11.8182C12.4709 15 13 14.3895 13 13.6364V1.36364C13 0.610521 12.4709 0 11.8182 0Z" fill="#ffffff"></path>
+                  <path d="M3.11869 4.01514H9.88131" stroke="#6b61ad" strokeLinecap="round" strokeLinejoin="round"></path>
+                  <path d="M3.11869 7.65151H9.88131" stroke="#6b61ad" strokeLinecap="round" strokeLinejoin="round"></path>
+                  <path d="M3.11869 11.2879H9.88131" stroke="#6b61ad" strokeLinecap="round" strokeLinejoin="round"></path>
+              </svg>
+          </div>
+      </div>
+      <div>Share Feedback</div>
+  </div>
+</button>
 
 <div class="cards" style="display: flex; justify-content: center; align-items: center;">
   <div class="card" style="border: 1px solid #ccc; height: 290px; width: 350px; margin: 16px; padding: 16px; display: flex; flex-direction: column; align-items: flex-start; text-align: left;">
@@ -346,7 +360,7 @@
       <img src="Customer1.png " alt="Advisor Image" style="flex-basis: 30%; margin-right: 40px;">
       <div style="flex-basis: 70%;">
         <h2>Connect with an consultant who specializes in your industry</h2>
-        <p>"I help people get their software search out of the way, so they can focus on their business. Advisors like me save you hours of time and can point you towards software options that perfectly match your specific needs. I specialize in construction software, but no matter what you’re looking for, one of us can definitely help!"</p>
+        <p style="width: 600px;font-size: 20px;">I help people get their software search out of the way, so they can focus on their business. Advisors like me save you hours of time and can point you towards software options that perfectly match your specific needs. I specialize in construction software, but no matter what you’re looking for, one of us can definitely help!"</p>
       </div>
     </div>
 
@@ -419,7 +433,7 @@
         height: 380px;width: 1374.6px;border-bottom-width: 0px;margin-bottom: 20px;padding-left: 15px;padding-top: 10px;padding-right: 10px;padding-bottom: 10px;margin-left:50px;border-left-width: 0px;border-right-width: -250;border-right-width: 0px;border-top-width: 0px;">
       <div class="contact-form">
         <h2 style="margin-top: 0px;margin-bottom: 0px;">CONTACT US</h2>
-        <p>Get in touch with us to know more about how  Anoka Advisory to transform your software experience. </p>
+        <p>Get in touch with us to know more about how  SoftwareFoxes to transform your software experience. </p>
         
         <label for="name"></label>
         <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" style="
@@ -445,39 +459,24 @@
 
       <div class="content-section" style="background-color: white;max-width: 450px;margin-right: 0px;">  
         <h2 style="
-            border-left-width: 10px;padding-left: 20px;margin-bottom: 0px;margin-top: 0px;
-      ">Anoka Advisory &amp; Co.</h2>
+            border-left-width: 10px;padding-left: 20px;margin-bottom: 0px;margin-top: 0px;">SoftwareFoxes</h2>
         <p style="
-            border-left-width: 10px;padding-left: 20px;width: 400px;
-      ">Anoka Advisory stands at the forefront of technological innovation, carving a niche as a dynamic and client-centric software solutions provider. Renowned for delivering a plethora of cutting-edge software across diverse sectors, We seamlessly integrates technology to address multifaceted challenges. With a commitment to excellence, our team of seasoned professionals harnesses the power of innovation to craft bespoke software solutions tailored to the unique needs of our clients.</p>
+            border-left-width: 10px;padding-left: 20px;width: 400px;">SoftwareFoxes stands at the forefront of technological innovation, carving a niche as a dynamic and client-centric software solutions provider. Renowned for delivering a plethora of cutting-edge software across diverse sectors, We seamlessly integrates technology to address multifaceted challenges. With a commitment to excellence, our team of seasoned professionals harnesses the power of innovation to craft bespoke software solutions tailored to the unique needs of our clients.</p>
       </div>
     </div>
 
       <div class="space-cadet-background">
         <h2 class="boldText">Narrow down your search and make a confident choice</h2>
-        <p class="smallerText">Get your personalized recommendations now:</p>
+        <p class="smallerText" style="margin-bottom: 0px;margin-top: 0px;height: 40px;">Get your personalized recommendations now:</p>
       </div>
     </div>
     
       <div class="contact-information">
-        <p style="padding-bottom: 0px;padding-left: 20px;"><strong>Address: Anoka Advisory & Co. ITPL Main Rd, Pattandur Agrahara, Whitefield, Bengaluru, Karnataka 560066</p>
-        <p style="padding-bottom: 0px;padding-left: 20px;">Contact Us: +91 080-2943658</p>
-        <p style="padding-bottom: 0px;padding-left: 20px;">Fax Us: +91 080-2971922</p>
-        <p style="padding-bottom: 0px;padding-left: 20px;">Email Us: anokaadvisory.com</p>
-        <p style="padding-bottom: 0px;padding-left: 20px;">Disclaimer: This is a fictional website created for demonstration purposes only.</p>
-        <p style="padding-bottom: 0px;padding-left: 20px;">Privacy Policy: We respect your privacy and are committed to protecting your personal information.</p>
+        <p style="padding-bottom: 0px;padding-left: 500px;"><strong>Address: SoftwareFoxes, Bengaluru, Karnataka 560066</p>
+        <p style="padding-bottom: 0px;padding-left: 500px;">Contact Us: +91 080-2943658</p>
+        <p style="padding-bottom: 0px;padding-left: 500px;">Email Us: SoftwareFoxes.com</p>
+        <p style="padding-bottom: 0px;padding-left: 500px;">Disclaimer: This is a fictional website created for demonstration purposes only.</p>
       </div>
-
-    <div class="social-media-section">
-      <div class="social-media-icons">
-        <img src="facebook1.png" alt="Facebook">
-        <img src="Twitter1.png" alt="Twitter">
-        <img src="Insta1.png" alt="Instagram">
-        <img src="YOU1.png" alt="YouTube">
-        <img src="IN1.png" alt="LinkedIN">
-      </div>
-    </div>
-  </div>
 
   <script>
     let currentIndex = 0;
@@ -514,14 +513,23 @@
   }
 
 </script>
+<!-- Copyright and social media section -->
 <div class="copyright">
-    <p>© 2015-2024 Anoka Advisory & Co.</p>
-    <ul class="policy-links"></ul>
+  <div class="social-media-icons" style="padding-left: 1200px;">
+    <img src="facebook1.png" alt="Facebook">
+    <img src="Twitter1.png" alt="Twitter">
+    <img src="Insta1.png" alt="Instagram">
+    <img src="YOU1.png" alt="YouTube">
+    <img src="IN1.png" alt="LinkedIn">
+  </div>
+  <p>© 2015-2024 SoftwareFoxes</p>
+  <ul class="policy-links">
     <li class="policy-link"><a href="#">Privacy Policy</a></li>
-            <li class="policy-link"><a href="#">User Terms</a></li>
-            <li class="policy-link"><a href="#">Community Guidelines</a></li>
-            <li class="policy-link"><a href="#">FAQs</a></li>
-            <li class="policy-link"><a href="#">Content Policy</a></li>
+    <li class="policy-link"><a href="#">User Terms</a></li>
+    <li class="policy-link"><a href="#">Community Guidelines</a></li>
+    <li class="policy-link"><a href="#">FAQs</a></li>
+    <li class="policy-link"><a href="#">Content Policy</a></li>
+  </ul>
   </ul>
 </div>
 </body>
@@ -530,7 +538,7 @@
 **CSS code starts here.....!**
 /* Reset and common styles */
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family:  Cambria, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
   color: #000;
@@ -551,7 +559,7 @@ body {
 
 nav {
   display: flex;
-  background-color: #1a172c;
+  background-color:#FBE8A6;
   padding: 10px;
 }
 
@@ -563,14 +571,14 @@ nav a {
 }
 
 header {
-  background-color: #1a172c;
+  background-color: #FBE8A6;
   color: #fff;
   padding: 10px;
   text-align: left;
 }
 
 .titleheader {
-  background-color: #1a172c;
+  background-color: #FBE8A6;
   color: #fff;
   padding: 10px;
   text-align: center; /* Center the text in the header */
@@ -595,7 +603,7 @@ h1 {
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Cambria, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f7f7f7; /* Updated background color */
@@ -603,7 +611,7 @@ body {
 }
 
 header {
-  background-color: #1a172c;
+  background-color: #FBE8A6;
   color: #fff;
   padding: 50px;
   text-align: left;
@@ -688,7 +696,7 @@ header {
     }
     
     .search-bar button {
-      background-color: #1a172c; /* Adjust the background color as needed */
+      background-color: #FBE8A6; /* Adjust the background color as needed */
       border: none;
       padding: 10px;
       border-radius: 5px;
@@ -705,7 +713,7 @@ header {
     .header-text {
       font-size: 16px; /* Adjust the font size as needed */
       margin-left: 20px; /* Adjust the margin as needed */
-      color: #1a172c; /* Adjust the color as needed */
+      color: #FBE8A6; /* Adjust the color as needed */
     }
 </style>
 
@@ -772,7 +780,7 @@ nav a:hover {
   margin-top: 20px;
   margin-bottom: 30px;
   padding: 20px;
-  background-color: #1a172c; /* Updated background color */
+  background-color: #F4976C; /* Updated background color */
   box-sizing: border-box;
   border-radius: 20px;
   color: #f7f7f7; /* Updated font color */
@@ -945,7 +953,7 @@ nav a:hover {
 
   /* Additional styles for better appearance */
   display: block;
-  background-color: #3498db; /* Set the background color */
+  background-color: #FBE8A6 ; /* Set the background color */
   color: #fff; /* Set the text color */
   border: none; /* Remove the border for a cleaner look */
   border-radius: 5px; /* Add rounded corners */
@@ -965,7 +973,7 @@ nav a:hover {
 .anoka-section {
   margin-top: 20px;
   padding: 20px;
-  background-color: #1a172c; /* Updated background color */
+  background-color: #FBE8A6; /* Updated background color */
   box-sizing: border-box;
   border-radius: 10px;
   color: #f7f7f7; /* Updated font color */
@@ -974,7 +982,7 @@ nav a:hover {
 .social-media-section {
   margin-top: 20px;
   padding: 20px;
-  background-color: #ffffff; /* Updated background color */
+  background-color: #F4976C; /* Updated background color */
   box-sizing: border-box;
   border-radius: 10px;
   text-align: right;
@@ -1062,7 +1070,7 @@ nav a:hover {
 .customContainer {
   position: relative;
   height: 380px;
-  background-color: #1a172c;
+  background-color: #F4976C;
   color: white;
   padding: 20px;
   text-align: left;
@@ -1077,6 +1085,6 @@ nav a:hover {
 
 /* Smaller text styles */
 .smallerText {
-  font-size: 14px;
+  font-size: 20px;
   line-height: 2.5rem;
 }
